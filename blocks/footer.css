@@ -1,0 +1,17 @@
+.footer {
+  margin: 0;
+  color: #ffffff;
+  background-color: #2a2c2f;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer__copyright {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0%;
+  margin: 0;
+}
