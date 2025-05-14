@@ -62,34 +62,34 @@
   gap: 10px;
 }
 
-.content__grid__item {
+.content__grid-item {
   margin: 0;
   box-sizing: border-box;
 }
 
-.content__grid__item:nth-child(8) {
+.content__grid-item:nth-child(8) {
   grid-column: 1;
   grid-row: 2;
 }
 
-.content__grid__item:nth-child(7) {
+.content__grid-item:nth-child(7) {
   grid-column: 2;
   grid-row: 2;
 }
 
-.content__grid__item:nth-child(6) {
+.content__grid-item:nth-child(6) {
   grid-column: 3;
   grid-row: 2;
 }
 
-.content__grid__image {
+.content__grid-image {
   width: 100%;
   min-height: 100%;
   max-height: 100%;
   object-fit: cover;
 }
 
-.content__places__container {
+.content__places-container {
   width: 987px;
   box-sizing: border-box;
   margin: 0 auto;
@@ -111,7 +111,7 @@
     "button text";
 }
 
-.content__places__two {
+.content__places-two {
   width: 984px;
   margin-bottom: 100px;
   display: grid;
@@ -124,7 +124,7 @@
     "button text";
 }
 
-.content__places__three {
+.content__places-three {
   width: 984px;
   margin-bottom: 100px;
   display: grid;
@@ -138,7 +138,7 @@
     "button text";
 }
 
-.content__places__four {
+.content__places-four {
   width: 984px;
   margin-bottom: 100px;
   display: grid;
@@ -151,7 +151,7 @@
     "button text";
 }
 
-.content__places__title {
+.content__places-title {
   width: 460px;
   height: 152px;
   font-family: Inter;
@@ -163,7 +163,7 @@
   padding-bottom: 40px;
 }
 
-.content__places__item {
+.content__places-item {
   width: 460px;
   height: 460px;
   margin: 0;
@@ -172,22 +172,22 @@
   grid-area: image;
 }
 
-.content__places__image {
+.content__places-image {
   width: 100%;
   min-height: 100%;
   max-height: 100%;
   object-fit: cover;
 }
 
-.content__places__item:hover {
+.content__places-item:hover {
   background: #00000080;
 }
 
-.content__places__image:hover {
+.content__places-image:hover {
   opacity: 50%;
 }
 
-.content__places__button {
+.content__places-button {
   width: 289px;
   height: 48px;
   font-family: Inter;
@@ -204,7 +204,7 @@
   grid-area: button;
 }
 
-.content__places__button:hover {
+.content__places-button:hover {
   background: linear-gradient(
     90deg,
     rgba(2, 120, 254, 0.25) 0%,
@@ -212,7 +212,7 @@
   );
 }
 
-.content__places__website {
+.content__places-website {
   width: 456px;
   height: 67px;
   display: flex;
@@ -222,7 +222,7 @@
   padding-bottom: 40px;
 }
 
-.content__places__artist {
+.content__places-artist {
   font-family: Inter;
   font-weight: 400;
   font-size: 12px;
@@ -231,7 +231,7 @@
   text-transform: uppercase;
   margin: 0;
 }
-.content__places__artist-name {
+.content__places-artist-name {
   font-family: Inter;
   font-weight: 400;
   font-size: 18px;
@@ -240,7 +240,7 @@
   margin: 0;
 }
 
-.content__places__text {
+.content__places-text {
   width: 484px;
   font-family: Inter;
   font-weight: 400;
@@ -251,10 +251,10 @@
   grid-area: text;
 }
 
-.content__places__text_second {
+.content__places-text_second {
   grid-row: 3 / span 5;
 }
 
-.content__places__text_third {
+.content__places-text_third {
   grid-row: 4 / span 5;
 }
