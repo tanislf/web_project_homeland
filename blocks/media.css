@@ -272,6 +272,10 @@
     grid-row: 7;
   }
 
+  .content__places-container {
+    width: 320px;
+  }
+
   .content__places-title {
     width: 288px;
     font-size: 32px;
@@ -298,6 +302,7 @@
   .content__places-item {
     width: 320px;
     height: 320px;
+    box-shadow: none;
   }
 
   .content__places-text {
